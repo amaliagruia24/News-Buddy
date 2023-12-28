@@ -1,1 +1,1 @@
-# Weather-Buddy
+# News-Buddy
