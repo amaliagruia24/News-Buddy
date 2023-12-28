@@ -6,8 +6,7 @@ const { handleMessage } = require('./controller/telegram-bot');
 const { errorHandler } = require('./controller/helper');
 const {scheduleNewsAlerts} = require('./controller/news-scheduler')
 
-
-const {TOKEN, SERVER_URL} = process.env
+const { TOKEN, SERVER_URL } = process.env
 const URI = `/webhook/${TOKEN}`
 const TELEGRAM_API = `https://api.telegram.org/bot${TOKEN}`
 
