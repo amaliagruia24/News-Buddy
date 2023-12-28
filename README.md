@@ -18,7 +18,16 @@ Define the .env file with the following configuration:
 - SERVER_URL: the server generated with [ngrok]
 - GUARDIAN_KEY: API KEY generated from [The Guardian API]. 
 
-
+# Run the server 
+- Open a terminal or command prompt.
+- Navigate to the directory where you cloned the repository. 
+- Run these commands: 
+```sh
+npm install
+```
+```sh
+npm run dev 
+```
 
 [telegram]: <https://core.telegram.org/bots/api>
 [ngrok]: <https://ngrok.com/>
